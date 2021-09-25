@@ -10,6 +10,6 @@ function add(x1, x2){
     }
 }
 
- exports.add = add;// con este comando es exporta, permite exportar una propiedad de un objeto
+exports.add = add;// con este comando es exporta, permite exportar una propiedad de un objeto
 Math.add = add;//con este comando se utilisa el objeto creado math- AGREGANDO PROPIEDADES AL OBJETO
 module.exports = Math; // comando para exportar los objetos math- permite exportar objetos, variables,etc
